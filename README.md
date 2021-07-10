@@ -2,7 +2,29 @@
 Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com buttons to your own site.
 
 ## installation
-TBA
+npm
+
+```
+npm i zootycoon.css
+```
+
+yarn
+
+```
+yarn add zootycoon.css
+```
+
+jsdelivr
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zootycoon.css@1.0.0/zootycoon.css">
+```
+
+unpkg
+
+```
+<link rel="stylesheet" href="https://unpkg.com/zootycoon.css@1.0.0/zootycoon.css">
+```
 
 ## usage
 
