@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="zootycoon.css">
     </head>
-    <body>
-        <button class="zoobutton">Button</button>
-        <button class="marinebutton">Button</button>
+    <body class="zt-body" style="display:flex;flex-direction: column;padding:25px;padding-top: 50px;">
+        <nav class="zt-nav">
+            <button class="zt-button">Button</button>
+            <button class="zt-button">This is a button with a longer text</button>
+        </nav>
+        <main style="display: flex; gap: 10px;">
+            <div class="zt-container" style="display: inline-block; width: 35%;">
+                <h2 class="zt-heading">Header</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti blanditiis officia earum quo quos laborum neque quidem reprehenderit beatae commodi cupiditate enim sapiente debitis quas nihil, temporibus ipsam expedita tempore?</p>
+                <button class="zt-button">Normal button</button>
+                <button class="zt-button--marine">Marine Mania</button>
+            </div>
+            <div class="zt-container" style="display: inline-block;">
+                <h2 class="zt-heading">Another header</h2>
+                <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                <a href="" class="zt-link">this is a hyperlink</a>
+                <br />
+                <br />
+                <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg">
+            </div>
+        </main>
+        <footer class="zt-footer">
+            Some copyright things
+        </footer>
     </body>
 </html>

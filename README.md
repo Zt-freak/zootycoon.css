@@ -1,5 +1,5 @@
 # zootycoon.css
-Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com buttons to your own site.
+Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com styling to your own site.
 
 ## installation
 npm
@@ -17,15 +17,26 @@ yarn add zootycoon.css
 jsdelivr
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zootycoon.css@1.0.2/zootycoon.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zootycoon.css@2.0.0/zootycoon.css">
 ```
 
 unpkg
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/zootycoon.css@1.0.2/zootycoon.css">
+<link rel="stylesheet" href="https://unpkg.com/zootycoon.css@2.0.0/zootycoon.css">
 ```
 
 ## usage
 
-This library contains two different buttons, with their own CSS class: `.zoobutton` for the regular zootycoon.com button, `.marinebutton` for the Marine mania variant.
+### classes
+
+* .zt-body
+* .zt-container
+* .zt-heading
+* .zt-link
+* .zt-nav
+* .zt-footer
+* .zt-button
+* .zt-button--marine
+
+Check out index.html for a demo.

@@ -3,27 +3,120 @@
     src: url("./Kosmik_One_Bold.otf") format("opentype");
 }
 
-.zoobutton {
-    padding: 3px 35px;
-    background-color: #a5ce39;
+:root {
+    --zt-main-bg-color: #415318;
+    --zt-second-bg-color: #95a736;
+    --zt-dark-color: #294a10;
+    --zt-lime-color: #DDE6AA;
+    --zt-light-gold-color: #f4ef65;
+    --zt-medium-gold-color: #FFCC33;
+    --zt-dark-gold-color: #dea325;
+    --zt-verydark-gold-color: #866126;
+    --zt-white-color: #ffffff;
+}
+
+.zt-body {
+    background-color: var(--zt-main-bg-color);
+}
+
+.zt-container {
+    background-color: var(--zt-second-bg-color);
+    padding: 35px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: .8rem;
+}
+
+.zt-heading {
+    color: var(--zt-main-bg-color);
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    border-bottom: solid 2px var(--zt-main-bg-color);
+    font-size: .95rem;
+}
+
+.zt-link {
+    color: var(--zt-dark-color);
+    font-style: italic;
+    font-weight: bold;
+}
+
+.zt-link:visited {
+    color: var(--zt-lime-color);
+}
+
+.zt-link:active, .zt-link:hover {
+    color: var(--zt-medium-gold-color);
+}
+
+.zt-nav {
+    position: relative;
+    z-index: 50;
+    color: var(--zt-main-bg-color);
+    background-color: var(--zt-dark-gold-color);
+    padding: 15px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     box-shadow:
-    0 0 2px #063a1c,
-    0 5px 10px #2b6244,
+    0 8px 2px -1px #d29529,
+    0 11px 1px -3px #ffffff,
+    0 15px 0 var(--zt-verydark-gold-color),
+
+    0 20px 20px -8px #000000,
+
+    inset 0 -2px 3px -2px #000000
+    ;
+}
+
+.zt-footer {
+    position: relative;
+    z-index: 50;
+    color: var(--zt-main-bg-color);
+    background-color: var(--zt-dark-gold-color);
+    padding: 15px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow:
+    0 -8px 2px -1px var(--zt-verydark-gold-color),
+    0 -11px 1px -3px #ffffff,
+    0 -15px 0 #d29529,
+
+    inset 0 -2px 3px -2px #000000
+    ;
+}
+
+.zt-button {
+    padding: 3px 35px;
+    margin-bottom: 10px;
+    background-color: var(--zt-second-bg-color);
+
+    box-shadow:
+    0 0 2px #000000,
+    0 5px 10px #000000,
     inset 0 0 10px #051e14,
     inset 0 0 5px #051e14,
-    inset -3px 4px 2px 1px #a5ce39,
-    inset 4px 4px 2px 1px #a5ce39,
-    inset -3px -11px 2px -2px #a5ce39,
+    inset -3px 4px 2px 1px var(--zt-second-bg-color),
+    inset 4px 4px 2px 1px var(--zt-second-bg-color),
+    inset -3px -11px 2px -2px var(--zt-second-bg-color),
     inset -12px 8px 7px -2px #ffffff,
     inset -12px 8px 7px -2px #ffffff
     ;
 
-    border: 2px solid #f3ab1d;
+    border: 2px solid var(--zt-dark-gold-color);
     border-radius: 50px;
 
     font-family: 'Kosmik One Bold';
-    color: #f4ef65;
+    color: var(--zt-light-gold-color);
     font-size: 1.2rem;
     text-shadow:
         0px 0px 3px #000000,
@@ -33,34 +126,34 @@
     cursor: pointer;
 }
 
-.zoobutton:active, .zoobutton:hover {
+.zt-button:active, .zt-button:hover {
     background-color: #b7d433;
 
     box-shadow:
-    0 0 2px #063a1c,
-    0 5px 10px #2b6244,
+    0 0 2px #000000,
+    0 5px 10px #000000,
     inset 0 0 6px #2b2b2b,
-    inset -3px 4px 2px 1px #a5ce39,
-    inset 4px 4px 2px 1px #a5ce39,
-    inset -3px -11px 2px -2px #a5ce39,
+    inset -3px 4px 2px 1px var(--zt-second-bg-color),
+    inset 4px 4px 2px 1px var(--zt-second-bg-color),
+    inset -3px -11px 2px -2px var(--zt-second-bg-color),
     inset -12px 8px 7px -2px #ffffff,
     inset -12px 8px 7px -2px #ffffff
     ;
 
-    color: #2f4920;
+    color: var(--zt-dark-color);
     text-shadow: none;
 
     transition: .2s;
 }
 
-.marinebutton {
+.zt-button--marine {
     width: 120px;
     padding: 3px 35px;
     background-color: #16803b;
 
     box-shadow:
-    0 0 2px #063a1c,
-    0 5px 10px #2b6244,
+    0 0 2px #000000,
+    0 5px 10px #000000,
     inset 0 0 20px #051e14,
     inset 0 0 20px #051e14,
     inset -3px 4px 2px 1px #16803b,
@@ -75,7 +168,7 @@
     border-radius: 50px;
 
     font-family: 'Kosmik One Bold';
-    color: #f4ef65;
+    color: var(--zt-light-gold-color);
     font-size: 1.2rem;
     text-shadow:
         0px 0px 3px #000000,
@@ -85,12 +178,12 @@
     cursor: pointer;
 }
 
-.marinebutton:active, .marinebutton:hover {
+.zt-button--marine:active, .zt-button--marine:hover {
     background-color: #14fd98;
 
     box-shadow:
-    0 0 2px #063a1c,
-    0 5px 10px #2b6244,
+    0 0 2px #000000,
+    0 5px 10px #000000,
     inset 0 0 20px #051e14,
     inset -3px 4px 2px 1px #14fd98,
     inset 4px 4px 2px 1px #14fd98,

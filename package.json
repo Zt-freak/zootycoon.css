@@ -1,7 +1,7 @@
 {
   "name": "zootycoon.css",
-  "version": "1.0.2",
-  "description": "Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com buttons to your own site.",
+  "version": "2.0.0",
+  "description": "Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com styling to your own site.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
