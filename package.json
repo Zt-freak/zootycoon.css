@@ -1,0 +1,23 @@
+{
+  "name": "zootycoon.css",
+  "version": "1.0.0",
+  "description": "Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com buttons to your own site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zt-freak/zootycoon.css.git"
+  },
+  "keywords": [
+    "css",
+    "zootycoon"
+  ],
+  "author": "Apodemus (Zt-freak)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zt-freak/zootycoon.css/issues"
+  },
+  "homepage": "https://github.com/Zt-freak/zootycoon.css#readme"
+}
