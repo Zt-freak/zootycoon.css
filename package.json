@@ -1,6 +1,6 @@
 {
   "name": "zootycoon.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Feeling nostalgic about the zootycoon.com site from the 2000's? You can use this CSS to add the old zootycoon.com buttons to your own site.",
   "main": "index.js",
   "scripts": {

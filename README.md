@@ -17,13 +17,13 @@ yarn add zootycoon.css
 jsdelivr
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zootycoon.css@1.0.0/zootycoon.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zootycoon.css@1.0.1/zootycoon.css">
 ```
 
 unpkg
 
 ```
-<link rel="stylesheet" href="https://unpkg.com/zootycoon.css@1.0.0/zootycoon.css">
+<link rel="stylesheet" href="https://unpkg.com/zootycoon.css@1.0.1/zootycoon.css">
 ```
 
 ## usage
