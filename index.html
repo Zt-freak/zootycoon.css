@@ -2,30 +2,121 @@
 <html>
     <head>
         <link rel="stylesheet" href="zootycoon.css">
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                padding: 25px;
+                padding-top: 50px;
+                gap: 50px;
+            }
+
+            h3 {
+                font-family: Helvetica;
+            }
+        </style>
     </head>
-    <body class="zt-body" style="display:flex;flex-direction: column;padding:25px;padding-top: 50px;">
-        <nav class="zt-nav">
+    <body style="display:flex;flex-direction: column;padding:25px 0;padding-top: 50px; gap:50px;">
+        <h3>Navigation</h3>
+        <div class="zt-nav">
             <button class="zt-button">Button</button>
             <button class="zt-button">This is a button with a longer text</button>
-        </nav>
-        <main style="display: flex; gap: 10px;">
-            <div class="zt-container" style="display: inline-block; width: 35%;">
-                <h2 class="zt-heading">Header</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti blanditiis officia earum quo quos laborum neque quidem reprehenderit beatae commodi cupiditate enim sapiente debitis quas nihil, temporibus ipsam expedita tempore?</p>
-                <button class="zt-button">Normal button</button>
-                <button class="zt-button--marine">Marine Mania</button>
-            </div>
-            <div class="zt-container" style="display: inline-block;">
-                <h2 class="zt-heading">Another header</h2>
-                <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
-                <a href="" class="zt-link">this is a hyperlink</a>
-                <br />
-                <br />
-                <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg">
-            </div>
-        </main>
-        <footer class="zt-footer">
+        </div>
+
+        <h3>Footer</h3>
+        <div class="zt-footer">
             Some copyright things
-        </footer>
+        </div>
+        <div style="display:grid;grid-template-columns: 50% 50%;">
+            <div class="zt-body" style="padding: 20px;">
+                <div class="zt-container">
+                    <h2 class="zt-heading">Another header</h2>
+                    <div style="display:flex;gap:25px;">
+                        <div style="width: 50%;">
+                            <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                            <a href="" class="zt-link">this is a hyperlink</a>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg" style="display: inline;">
+                            <br />
+                            <br />
+                            <button class="zt-button">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="zt-body--endangered" style="padding: 20px;">
+                <div class="zt-container--endangered">
+                    <h2 class="zt-heading--endangered">Endangered Species (--endangered)</h2>
+                    <div style="display:flex;gap:25px;">
+                        <div style="width: 50%;">
+                            <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                            <a href="" class="zt-link--endangered">this is a hyperlink</a>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg" style="display: inline;">
+                            <br />
+                            <br />
+                            <button class="zt-button--endangered">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="zt-body--african" style="padding: 20px;">
+                <div class="zt-container--african">
+                    <h2 class="zt-heading--african">African Adventure (--african)</h2>
+                    <div style="display:flex;gap:25px;">
+                        <div style="width: 50%;">
+                            <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                            <a href="" class="zt-link--african">this is a hyperlink</a>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg" style="display: inline;">
+                            <br />
+                            <br />
+                            <button class="zt-button--african">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="zt-body--marine" style="padding: 20px;">
+                <div class="zt-container--marine">
+                    <h2 class="zt-heading--marine">Marine Mania (--marine)</h2>
+                    <div style="display:flex;gap:25px;">
+                        <div style="width: 50%;">
+                            <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                            <a href="" class="zt-link--marine">this is a hyperlink</a>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg" style="display: inline;">
+                            <br />
+                            <br />
+                            <button class="zt-button--marine">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="zt-body--extinct" style="padding: 20px;">
+                <div class="zt-container--extinct">
+                    <h2 class="zt-heading--extinct">Extinct Animals (--extinct)</h2>
+                    <div style="display:flex;gap:25px;">
+                        <div style="width: 50%;">
+                            <p>Zoo Tycoon is a series of business simulation video games. The worlds focus around building and running successful zoo scenarios. The series was initially developed by Blue Fang Games and published by Microsoft Studios who later in 2001-2008 went on to create two stand-alone video games and seven expansion packs for PC and Macintosh platforms. In 2013, Microsoft Studios released a new Zoo Tycoon game, developed by Frontier Developments for Xbox One and Xbox 360. An enhanced version of the Xbox game, Zoo Tycoon: Ultimate Animal Collection, was released for Windows 10 and the Xbox One on October 31, 2017.</p>
+                            <a href="" class="zt-link--extinct">this is a hyperlink</a>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/en/1/1c/Styracosaurus_ans_Short_Faced_Bear.jpg" style="display: inline;">
+                            <br />
+                            <br />
+                            <button class="zt-button--extinct">Button</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

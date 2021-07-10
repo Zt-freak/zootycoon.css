@@ -37,6 +37,11 @@ unpkg
 * .zt-nav
 * .zt-footer
 * .zt-button
-* .zt-button--marine
+
+### BEM modifiers
+* --endangered
+* --african
+* --marine
+* --extinct
 
 Check out index.html for a demo.
