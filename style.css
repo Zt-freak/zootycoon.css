@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "Kosmik One Bold";
+    src: url("./Kosmik_One_Bold.otf") format("opentype");
+}
+
+.zoobutton {
+    padding: 3px 35px;
+    background-color: #a5ce39;
+
+    box-shadow:
+    0 0 2px #063a1c,
+    0 5px 10px #2b6244,
+    inset 0 0 10px #051e14,
+    inset 0 0 5px #051e14,
+    inset -3px 4px 2px 1px #a5ce39,
+    inset 4px 4px 2px 1px #a5ce39,
+    inset -3px -11px 2px -2px #a5ce39,
+    inset -12px 8px 7px -2px #ffffff,
+    inset -12px 8px 7px -2px #ffffff
+    ;
+
+    border: 2px solid #f3ab1d;
+    border-radius: 50px;
+
+    font-family: 'Kosmik One Bold';
+    color: #f4ef65;
+    font-size: 1.2rem;
+    text-shadow:
+        0px 0px 3px #000000,
+        0px 0px 5px #000000
+    ;
+
+    cursor: pointer;
+}
+
+.zoobutton:active, .zoobutton:hover {
+    background-color: #b7d433;
+
+    box-shadow:
+    0 0 2px #063a1c,
+    0 5px 10px #2b6244,
+    inset 0 0 6px #2b2b2b,
+    inset -3px 4px 2px 1px #a5ce39,
+    inset 4px 4px 2px 1px #a5ce39,
+    inset -3px -11px 2px -2px #a5ce39,
+    inset -12px 8px 7px -2px #ffffff,
+    inset -12px 8px 7px -2px #ffffff
+    ;
+
+    color: #2f4920;
+    text-shadow: none;
+
+    transition: .2s;
+}
+
+.marinebutton {
+    width: 120px;
+    padding: 3px 35px;
+    background-color: #16803b;
+
+    box-shadow:
+    0 0 2px #063a1c,
+    0 5px 10px #2b6244,
+    inset 0 0 20px #051e14,
+    inset 0 0 20px #051e14,
+    inset -3px 4px 2px 1px #16803b,
+    inset 4px 4px 2px 1px #16803b,
+    inset -3px -11px 2px -2px #16803b,
+    inset -12px 8px 7px -2px #ffffff,
+    inset -12px 8px 7px -2px #ffffff,
+    inset 0 0 20px #051e14
+    ;
+
+    border: 2px solid #1aae71;
+    border-radius: 50px;
+
+    font-family: 'Kosmik One Bold';
+    color: #f4ef65;
+    font-size: 1.2rem;
+    text-shadow:
+        0px 0px 3px #000000,
+        0px 0px 5px #000000
+    ;
+
+    cursor: pointer;
+}
+
+.marinebutton:active, .marinebutton:hover {
+    background-color: #14fd98;
+
+    box-shadow:
+    0 0 2px #063a1c,
+    0 5px 10px #2b6244,
+    inset 0 0 20px #051e14,
+    inset -3px 4px 2px 1px #14fd98,
+    inset 4px 4px 2px 1px #14fd98,
+    inset -3px -11px 2px -2px #14fd98,
+    inset -12px 8px 7px -2px #ffffff,
+    inset -12px 8px 7px -2px #ffffff,
+    inset -12px 8px 7px -2px #ffffff
+    ;
+
+    border: 2px solid #16f383;
+
+    color: #0b3f2a;
+    text-shadow: none;
+    transition: .2s;
+}
